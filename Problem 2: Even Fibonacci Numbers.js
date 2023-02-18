@@ -25,8 +25,7 @@ function fiboEvenSum(n) {
             divTwo += acc[i]
         }
     }
-    console.log(acc)
-    console.log(divTwo)
+    return divTwo
 }
 
 fiboEvenSum(1000)
